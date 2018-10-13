@@ -15,5 +15,5 @@ OBJ = $(SRC:.c=.o)
 # the build target executable:
 #TARGET = sv_2
 build:
-	$(CC) sv_2.c -o sv_2
-	$(CC) cl_2.c -o cl_2
+	$(CC) sv_1.c -o sv_1
+	$(CC) cl_1.c -o cl_1
